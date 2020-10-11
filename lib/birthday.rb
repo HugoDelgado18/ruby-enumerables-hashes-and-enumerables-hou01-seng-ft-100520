@@ -6,7 +6,7 @@
 
 def happy_birthday(birthday_kids)
 birthday_kids.each do |k,v|
-  if k.start_with("A")
+  if k.start_with?("A")
     return k
   end
 end
