@@ -5,7 +5,7 @@
 # }
 
 def happy_birthday(birthday_kids)
-birthday_kids.each do |i|
+birthday_kids.each do |k,v|
   if i.start_with("A")
     return i
   end
