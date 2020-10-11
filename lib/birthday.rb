@@ -9,5 +9,6 @@ birthday_kids.each do |k,v|
   if k.start_with("A")
     return k
   end
+end
   # add your code snippet here!
 end
